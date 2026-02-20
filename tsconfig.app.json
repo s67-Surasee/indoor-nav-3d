@@ -8,6 +8,9 @@
     "types": ["vite/client"],
     "skipLibCheck": true,
 
+    /* 🟢 เพิ่มบรรทัดนี้ลงไป เพื่อให้อ่านไฟล์ .js / .jsx ได้ */
+    "allowJs": true,
+
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
